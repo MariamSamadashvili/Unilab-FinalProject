@@ -238,3 +238,6 @@ li:nth-child(2) {
 	opacity: 34%;
 	margin-top: 41px;
 }
+.scroll {
+	padding-bottom: 30px;
+}
