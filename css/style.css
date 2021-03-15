@@ -39,7 +39,6 @@ body {
 	width: 100%;
 	opacity: 92%;
 	margin-bottom: 37px;
-	box-shadow: 0px 3px 6px #EBEBEB;
 }
 .search {
 	margin-left: 9px;
@@ -501,6 +500,16 @@ body {
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 10px;
+}
+.search-div-product {
+	background-color: #FFFEFC;
+	border-radius: 6px;
+	height: 39px;
+	max-width: 224px;
+	width: 100%;
+	opacity: 92%;
+	margin-bottom: 37px;
+	box-shadow: 0px 3px 6px #EBEBEB;
 }
 /*footer*/
 .footer-wrapper-product {
