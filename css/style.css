@@ -352,3 +352,86 @@ body {
 .li-books:nth-child(2) {
 	margin-bottom: 42px;
 }
+/*collections css*/
+/*header*/
+.nav-a-collections {
+	color: #FFFEFC;
+	font-size: 20px;
+	vertical-align: middle;
+	margin-right: -4px;
+}
+.li-collections:nth-child(3)::after {
+	content: "";
+	height: 8px;
+	width: 8px;
+	border-radius: 4px;
+	background-color: #7E3737;
+	display: table;
+	display: inline-block;
+	margin-left: 11px;
+}
+.nav-ul-collections {
+	height: 248px;
+	display: flex;
+	flex-direction: column;
+}
+.li-collections:nth-child(3)::before {
+	content: "";
+	height: 2px;
+	width: 200px;
+	background-color: #FFFDF8;
+	opacity: 34%;
+	display: block;
+	border-radius: 1px;
+	margin-bottom: 42px;
+}
+.li-collections:nth-child(1), .li-collections:nth-child(3) {
+	margin-bottom: 34px;
+}
+.li-collections:nth-child(2) {
+	margin-bottom: 42px;
+}
+/*footer*/
+.footer-wrapper-collections {
+	margin-top: 22px;
+	max-width: 1028px;
+	width: 100%;
+}
+/*collections container*/
+.collections-container {
+	display: flex;
+	flex-direction: column;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	max-width: 1028px;
+	width: 100%;
+	margin-left: 28px;
+	margin-right: 25px;
+}
+.collections-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 1028px;
+	width: 100%;
+	justify-content: space-between;
+}
+.collections-wrapper div {
+	position: relative;
+	margin-bottom: 40px;
+	text-align: center;
+}
+.collections-wrapper div img {
+	max-width: 316px;
+	width: 100%;
+}
+.collections-wrapper div h2 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #FFFEFC;
+	font-size: 30px;
+	max-width: 316px;
+	width: 100%;
+	line-height: 35px;
+}
