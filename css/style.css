@@ -49,6 +49,7 @@ body {
 	font-size: 20px;
 	vertical-align: middle;
 	margin-right: -4px;
+	font-family: 'BPG DejaVu 2010';
 }
 .li:nth-child(1)::after {
 	content: "";
@@ -110,19 +111,23 @@ body {
 	font-size: 32px;
 	margin-bottom: 30px;
 	color: #242220;
+	font-family: 'BPG DejaVu 2010';
 }
 .section2-name {
 	line-height: 25px;
 	font-size: 17px;
 	color: #242220;
+	font-family: 'BPG DejaVu 2010';
 }
 .section2-author {
 	font-size: 14px;
 	color: #242220;
+	font-family: 'BPG Arial';
 }
 .section2-h4 {
 	font-size: 14px;
 	color: #7E3737;
+	font-family: 'BPG Arial';
 }
 .relative {
 	position: relative;
@@ -222,11 +227,19 @@ body {
 	color: #FFFEFC;
 	opacity: 90%;
 	font-size: 20px;
+	font-family: 'BPG DejaVu 2010';
 }
-.f-div1 p, .f-div2 p, .f-div3 p {
+.f-div1 p, .f-div2 p {
 	color: #FFFEFC;
 	opacity: 90%;
 	font-size: 16px;
+	font-family: 'BPG Arial';
+}
+.f-div3 p {
+	color: #FFFEFC;
+	opacity: 90%;
+	font-size: 16px;
+	font-family: 'Raleway', sans-serif;
 }
 .p1, .p3 {
 	margin-top: 22px;
@@ -242,6 +255,7 @@ body {
 	color: #FFFEFC;
 	opacity: 90%;
 	font-size: 14px;
+	font-family: 'Raleway', sans-serif;
 }
 .line {
 	max-width: 964px;
@@ -271,6 +285,7 @@ body {
 	font-size: 21px;
 	color: #242220;
 	margin-right: 25px;
+	font-family: 'BPG DejaVu 2010';
 }
 .book-categories img {
 	margin-right: 28px;
@@ -310,9 +325,10 @@ body {
 }
 .pages p {
 	color: #242220;
-	font-size: 27px;
+	font-size: 32px;
 	margin-left: 15px;
 	margin-right: 15px;
+	font-family: 'Raleway', sans-serif;
 }
 /*books header*/
 .nav-a-books {
@@ -320,6 +336,7 @@ body {
 	font-size: 20px;
 	vertical-align: middle;
 	margin-right: -4px;
+	font-family: 'BPG DejaVu 2010';
 }
 .li-books:nth-child(2)::after {
 	content: "";
@@ -359,6 +376,7 @@ body {
 	font-size: 20px;
 	vertical-align: middle;
 	margin-right: -4px;
+	font-family: 'BPG DejaVu 2010';
 }
 .li-collections:nth-child(3)::after {
 	content: "";
@@ -434,6 +452,7 @@ body {
 	max-width: 316px;
 	width: 100%;
 	line-height: 35px;
+	font-family: 'BPG DejaVu 2010';
 }
 /*product.html css*/
 /*header*/
@@ -464,6 +483,7 @@ body {
 	font-size: 20px;
 	vertical-align: middle;
 	margin-right: -4px;
+	font-family: 'BPG DejaVu 2010';
 }
 .li-product:nth-child(2)::after {
 	content: "";
@@ -513,7 +533,7 @@ body {
 }
 /*footer*/
 .footer-wrapper-product {
-	margin-top: 22px;
+	margin-top: 75px;
 	max-width: 928px;
 	width: 100%;
 	align-self: center;
@@ -538,16 +558,25 @@ body {
 	color: #242220;
 	opacity: 90%;
 	font-size: 20px;
+	font-family: 'BPG DejaVu 2010';
 }
-.f-product-div1 p, .f-product-div2 p, .f-product-div3 p {
+.f-product-div1 p, .f-product-div2 p {
 	color: #242220;
 	opacity: 90%;
 	font-size: 16px;
+	font-family: 'BPG Arial';
+}
+.f-product-div3 p {
+	color: #242220;
+	opacity: 90%;
+	font-size: 16px;
+	font-family: 'Raleway', sans-serif;
 }
 .footer-2-product h6 {
 	color: #242220;
 	opacity: 90%;
 	font-size: 14px;
+	font-family: 'Raleway', sans-serif;
 }
 .line-product {
 	max-width: 865px;
@@ -573,9 +602,11 @@ body {
 	margin: 0 auto;
 	font-size: 20px;
 	color: #242220;
+	font-family: 'BPG DejaVu 2010';
 }
 .product-h4 span {
 	color: #7E3737;
+	font-family: 'BPG Arial';
 }
 .purchase {
 	margin-top: 40px;
@@ -590,11 +621,13 @@ body {
 .purchase-div h1 {
 	font-size: 66px;
 	color: #242220;
+	font-family: 'BPG DejaVu 2010';
 }
 .purchase-div h4 {
 	font-size: 23px;
 	color: #242220;
 	margin-top: 35px;
+	font-family: 'BPG Arial';
 }
 .stars-div {
 	display: flex;
@@ -605,11 +638,13 @@ body {
 	margin-left: 17px;
 	font-size: 17px;
 	color: #A7A7A7;
+	font-family: 'Raleway', sans-serif;
 }
 .purchase-div h2 {
 	font-size: 44px;
 	color: #7E3737;
 	margin-top: 41px;
+	font-family: 'BPG Arial';
 }
 .plus-product {
 	margin-top: 45px;
@@ -628,6 +663,7 @@ body {
 	line-height: 42px;
 	opacity: 94%;
 	font-size: 19px;
+	font-family: 'BPG Arial';
 }
 .purchase-details-line {
 	max-width: 164px;
@@ -649,6 +685,7 @@ body {
 	font-size: 15px;
 	opacity: 94%;
 	margin-right: 19px;
+	font-family: 'BPG Arial';
 }
 .annotation {
 	max-width: 928px;
@@ -665,6 +702,7 @@ body {
 .annotation-top h2 {
 	color: #7E3737;
 	font-size: 45px;
+	font-family: 'BPG DejaVu 2010';
 }
 .annotation-line {
 	max-width: 277px;
@@ -679,6 +717,7 @@ body {
 	color: #6D6D6C;
 	line-height: 30px;
 	margin-top: 48px;
+	font-family: 'BPG Arial';
 }
 .similar {
 	max-width: 928px;
@@ -693,7 +732,7 @@ body {
 	align-items: center;
 }
 .similar-lines {
-	max-width: 133px;
+	max-width: 112px;
 	width: 100%;
 	height: 2px;
 	border-radius: 1px;
@@ -703,4 +742,41 @@ body {
 .similar-top h2 {
 	color: #7E3737;
 	font-size: 45px;
+	font-family: 'BPG DejaVu 2010';
 }
+.similar-wrapper {
+	margin-top: 45px;
+	display: flex;
+	justify-content: space-between;
+	max-width: 928px;
+	width: 100%;
+}
+.similar-wrapper div {
+	text-align: center;
+	width: 190px;
+}
+@font-face {
+    font-family: 'BPG DejaVu 2010';
+    src: url('fonts/BPGExcelsiorCapsDejaVu2010.eot');
+    src: url('fonts/BPGExcelsiorCapsDejaVu2010.eot?#iefix') format('embedded-opentype'),
+        url('fonts/BPGExcelsiorCapsDejaVu2010.woff2') format('woff2'),
+        url('fonts/BPGExcelsiorCapsDejaVu2010.woff') format('woff'),
+        url('fonts/BPGExcelsiorCapsDejaVu2010.ttf') format('truetype'),
+        url('fonts/BPGExcelsiorCapsDejaVu2010.svg#BPGExcelsiorCapsDejaVu2010') format('svg');
+	font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'BPG Arial';
+    src: url('BPGArial.eot');
+    src: url('BPGArial.eot?#iefix') format('embedded-opentype'),
+        url('BPGArial.woff2') format('woff2'),
+        url('BPGArial.woff') format('woff'),
+        url('BPGArial.ttf') format('truetype'),
+        url('BPGArial.svg#BPGArial') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
