@@ -18,7 +18,10 @@
 					<div class="dots"></div>
 				</div>
 				<div class="search-div">
-					<img class="search" src="img/search.svg" alt="ძებნა">
+				    <form action="/action_page.php">
+				        <button type="submit"><img src="img/search.svg" alt="ძებნა"></button>
+				        <input type="text" name="search">
+				    </form>
 				</div>
 				<nav>
 					<ul class="nav-ul-books">
@@ -38,9 +41,9 @@
 				</nav>
 			</div>	
 			<div class="icons-div">
-				<img src="img/user.svg" alt="იუზერი">
-				<img src="img/basket.svg" alt="კალათა">
-				<img src="img/globe.svg" alt="ენა">
+				<a href="#"><img src="img/user.svg" alt="იუზერი"></a>
+				<a href="#"><img src="img/basket.svg" alt="კალათა"></a>
+				<a href="#"><img src="img/globe.svg" alt="ენა"></a>
 			</div>
 			
 		</header>
@@ -61,121 +64,121 @@
 			<div class="books-container">
 				<div class="books-wrapper">
 					<div class="relative">
-						<img src="img/1.png" alt="ჰარი პოტერი და ფილოსოფიური ქვა">
-						<div class="absolute1"><h3 class="section2-name">ჰარი პოტერი და ფილოსოფიური ქვა</h3></div>
-						<div class="absolute2"><h4 class="section2-author">ჯოან როულინგი</h4></div>
-						<div class="absolute3"><h4 class="section2-h4">5.00 ₾</h4></div>
-						<div class="absolute4"><img style="opacity: 85%" src="img/plus.svg" alt="კალათაში დამატება"></div>
-					</div>
-					<div class="relative">
-						<img src="img/2.png" alt="დიდი გეტსბი">
-						<div class="absolute1"><h3 class="section2-name">დიდი გეტსბი</h3></div>
-						<div class="absolute2"><h4 class="section2-author">ფრენსის სკოტ ფიცჯერალდი</h4></div>
-						<div class="absolute3"><h4 class="section2-h4">5.00 ₾</h4></div>
-						<div class="absolute4"><img style="opacity: 85%" src="img/plus.svg" alt="კალათაში დამატება"></div>
-					</div>
-					<div class="relative">
-						<img src="img/3.png" alt="ანა ფრანკის დღიური">
-						<div class="absolute1"><h3 class="section2-name">ანა ფრანკის დღიური</h3></div>
-						<div class="absolute2"><h4 class="section2-author">ანა ფრანკი</h4></div>
-						<div class="absolute3"><h4 class="section2-h4">5.00 ₾</h4></div>
-						<div class="absolute4"><img style="opacity: 85%" src="img/plus.svg" alt="კალათაში დამატება"></div>
-					</div>
-					<div class="relative">
-						<img src="img/4.png" alt="ჰობიტი">
-						<div class="absolute1"><h3 class="section2-name">ჰობიტი</h3></div>
-						<div class="absolute2"><h4 class="section2-author">ჯ.რ.რ. ტოლკინი</h4></div>
-						<div class="absolute3"><h4 class="section2-h4">5.00 ₾</h4></div>
-						<div class="absolute4"><img style="opacity: 85%" src="img/plus.svg" alt="კალათაში დამატება"></div>
-					</div>
-					<div class="relative">
-						<img src="img/5.png" alt="წიგნის ქურდი">
-						<div class="absolute1"><h3 class="section2-name">წიგნის ქურდი</h3></div>
-						<div class="absolute2"><h4 class="section2-author">მარკუს ზუზაკი</h4></div>
-						<div class="absolute3"><h4 class="section2-h4">5.00 ₾</h4></div>
-						<div class="absolute4"><img style="opacity: 85%" src="img/plus.svg" alt="კალათაში დამატება"></div>
-					</div>
+							<img src="img/1.png" alt="ჰარი პოტერი და ფილოსოფიური ქვა">
+							<div class="absolute1"><h3><a class="section2-name" href="product.html">ჰარი პოტერი <span>და ფილოსოფიური ქვა</span></a></h3></div>
+							<div class="absolute2"><h4 class="section2-author">ჯოან როულინგი</h4></div>
+							<div class="absolute3"><h4 class="section2-h4">5.00 ₾</h4></div>
+							<div class="absolute4"><a href="#"><img src="img/plus.svg" alt="კალათაში დამატება"></a></div>
+						</div>
+						<div class="relative">
+							<img src="img/2.png" alt="დიდი გეტსბი">
+							<div class="absolute1"><h3><a class="section2-name" href="product.html">დიდი გეტსბი</a></h3></div>
+							<div class="absolute2"><h4 class="section2-author">ფრენსის სკოტ ფიცჯერალდი</h4></div>
+							<div class="absolute3"><h4 class="section2-h4">5.00 ₾</h4></div>
+							<div class="absolute4"><a href="#"><img src="img/plus.svg" alt="კალათაში დამატება"></a></div>
+						</div>
+						<div class="relative">
+							<img src="img/3.png" alt="ანა ფრანკის დღიური">
+							<div class="absolute1"><h3><a class="section2-name" href="product.html">ანა ფრანკის დღიური</a></h3></div>
+							<div class="absolute2"><h4 class="section2-author">ანა ფრანკი</h4></div>
+							<div class="absolute3"><h4 class="section2-h4">5.00 ₾</h4></div>
+							<div class="absolute4"><a href="#"><img src="img/plus.svg" alt="კალათაში დამატება"></a></div>
+						</div>
+						<div class="relative">
+							<img src="img/4.png" alt="ჰობიტი">
+							<div class="absolute1"><h3><a class="section2-name" href="product.html">ჰობიტი</a></h3></div>
+							<div class="absolute2"><h4 class="section2-author">ჯ.რ.რ. ტოლკინი</h4></div>
+							<div class="absolute3"><h4 class="section2-h4">5.00 ₾</h4></div>
+							<div class="absolute4"><a href="#"><img src="img/plus.svg" alt="კალათაში დამატება"></a></div>
+						</div>
+						<div class="relative">
+							<img src="img/5.png" alt="წიგნის ქურდი">
+							<div class="absolute1"><h3><a class="section2-name" href="product.html">წიგნის ქურდი</a></h3></div>
+							<div class="absolute2"><h4 class="section2-author">მარკუს ზუზაკი</h4></div>
+							<div class="absolute3"><h4 class="section2-h4">5.00 ₾</h4></div>
+							<div class="absolute4"><a href="#"><img src="img/plus.svg" alt="კალათაში დამატება"></a></div>
+						</div>
 				</div>
 				<div class="books-wrapper">
 					<div class="relative">
-						<img src="img/6.png" alt="ბუზთა ბატონი">
-						<div class="absolute1"><h3 class="section2-name">ბუზთა ბატონი</h3></div>
-						<div class="absolute2"><h4 class="section2-author">უილიამ გოლდინგი</h4></div>
-						<div class="absolute3"><h4 class="section2-h4">5.00 ₾</h4></div>
-						<div class="absolute4"><img style="opacity: 85%" src="img/plus.svg" alt="კალათაში დამატება"></div>
-					</div>
+							<img src="img/6.png" alt="ბუზთა ბატონი">
+							<div class="absolute1"><h3><a class="section2-name" href="product.html">ბუზთა ბატონი</a></h3></div>
+							<div class="absolute2"><h4 class="section2-author">უილიამ გოლდინგი</h4></div>
+							<div class="absolute3"><h4 class="section2-h4">5.00 ₾</h4></div>
+							<div class="absolute4"><a href="#"><img src="img/plus.svg" alt="კალათაში დამატება"></a></div>
+						</div>
+						<div class="relative">
+							<img src="img/7.png" alt="ფრანკენშტაინი">
+							<div class="absolute1"><h3><a class="section2-name" href="product.html">ფრანკენშტაინი</a></h3></div>
+							<div class="absolute2"><h4 class="section2-author">მერი შელი</h4></div>
+							<div class="absolute3"><h4 class="section2-h4">5.00 ₾</h4></div>
+							<div class="absolute4"><a href="#"><img src="img/plus.svg" alt="კალათაში დამატება"></a></div>
+						</div>
 					<div class="relative">
-						<img src="img/7.png" alt="ფრანკენშტაინი">
-						<div class="absolute1"><h3 class="section2-name">ფრანკენშტაინი</h3></div>
-						<div class="absolute2"><h4 class="section2-author">მერი შელი</h4></div>
-						<div class="absolute3"><h4 class="section2-h4">5.00 ₾</h4></div>
-						<div class="absolute4"><img style="opacity: 85%" src="img/plus.svg" alt="კალათაში დამატება"></div>
-					</div>
+							<img src="img/6.png" alt="ბუზთა ბატონი">
+							<div class="absolute1"><h3><a class="section2-name" href="product.html">ბუზთა ბატონი</a></h3></div>
+							<div class="absolute2"><h4 class="section2-author">უილიამ გოლდინგი</h4></div>
+							<div class="absolute3"><h4 class="section2-h4">5.00 ₾</h4></div>
+							<div class="absolute4"><a href="#"><img src="img/plus.svg" alt="კალათაში დამატება"></a></div>
+						</div>
+						<div class="relative">
+							<img src="img/7.png" alt="ფრანკენშტაინი">
+							<div class="absolute1"><h3><a class="section2-name" href="product.html">ფრანკენშტაინი</a></h3></div>
+							<div class="absolute2"><h4 class="section2-author">მერი შელი</h4></div>
+							<div class="absolute3"><h4 class="section2-h4">5.00 ₾</h4></div>
+							<div class="absolute4"><a href="#"><img src="img/plus.svg" alt="კალათაში დამატება"></a></div>
+						</div>
 					<div class="relative">
-						<img src="img/6.png" alt="ბუზთა ბატონი">
-						<div class="absolute1"><h3 class="section2-name">ბუზთა ბატონი</h3></div>
-						<div class="absolute2"><h4 class="section2-author">უილიამ გოლდინგი</h4></div>
-						<div class="absolute3"><h4 class="section2-h4">5.00 ₾</h4></div>
-						<div class="absolute4"><img style="opacity: 85%" src="img/plus.svg" alt="კალათაში დამატება"></div>
-					</div>
-					<div class="relative">
-						<img src="img/7.png" alt="ფრანკენშტაინი">
-						<div class="absolute1"><h3 class="section2-name">ფრანკენშტაინი</h3></div>
-						<div class="absolute2"><h4 class="section2-author">მერი შელი</h4></div>
-						<div class="absolute3"><h4 class="section2-h4">5.00 ₾</h4></div>
-						<div class="absolute4"><img style="opacity: 85%" src="img/plus.svg" alt="კალათაში დამატება"></div>
-					</div>
-					<div class="relative">
-						<img src="img/7.png" alt="ფრანკენშტაინი">
-						<div class="absolute1"><h3 class="section2-name">ფრანკენშტაინი</h3></div>
-						<div class="absolute2"><h4 class="section2-author">მერი შელი</h4></div>
-						<div class="absolute3"><h4 class="section2-h4">5.00 ₾</h4></div>
-						<div class="absolute4"><img style="opacity: 85%" src="img/plus.svg" alt="კალათაში დამატება"></div>
-					</div>
+							<img src="img/7.png" alt="ფრანკენშტაინი">
+							<div class="absolute1"><h3><a class="section2-name" href="product.html">ფრანკენშტაინი</a></h3></div>
+							<div class="absolute2"><h4 class="section2-author">მერი შელი</h4></div>
+							<div class="absolute3"><h4 class="section2-h4">5.00 ₾</h4></div>
+							<div class="absolute4"><a href="#"><img src="img/plus.svg" alt="კალათაში დამატება"></a></div>
+						</div>
 				</div>
 				<div class="books-wrapper">
 					<div class="relative">
-						<img src="img/6.png" alt="ბუზთა ბატონი">
-						<div class="absolute1"><h3 class="section2-name">ბუზთა ბატონი</h3></div>
-						<div class="absolute2"><h4 class="section2-author">უილიამ გოლდინგი</h4></div>
-						<div class="absolute3"><h4 class="section2-h4">5.00 ₾</h4></div>
-						<div class="absolute4"><img style="opacity: 85%" src="img/plus.svg" alt="კალათაში დამატება"></div>
-					</div>
+							<img src="img/6.png" alt="ბუზთა ბატონი">
+							<div class="absolute1"><h3><a class="section2-name" href="product.html">ბუზთა ბატონი</a></h3></div>
+							<div class="absolute2"><h4 class="section2-author">უილიამ გოლდინგი</h4></div>
+							<div class="absolute3"><h4 class="section2-h4">5.00 ₾</h4></div>
+							<div class="absolute4"><a href="#"><img src="img/plus.svg" alt="კალათაში დამატება"></a></div>
+						</div>
+						<div class="relative">
+							<img src="img/7.png" alt="ფრანკენშტაინი">
+							<div class="absolute1"><h3><a class="section2-name" href="product.html">ფრანკენშტაინი</a></h3></div>
+							<div class="absolute2"><h4 class="section2-author">მერი შელი</h4></div>
+							<div class="absolute3"><h4 class="section2-h4">5.00 ₾</h4></div>
+							<div class="absolute4"><a href="#"><img src="img/plus.svg" alt="კალათაში დამატება"></a></div>
+						</div>
 					<div class="relative">
-						<img src="img/7.png" alt="ფრანკენშტაინი">
-						<div class="absolute1"><h3 class="section2-name">ფრანკენშტაინი</h3></div>
-						<div class="absolute2"><h4 class="section2-author">მერი შელი</h4></div>
-						<div class="absolute3"><h4 class="section2-h4">5.00 ₾</h4></div>
-						<div class="absolute4"><img style="opacity: 85%" src="img/plus.svg" alt="კალათაში დამატება"></div>
-					</div>
+							<img src="img/6.png" alt="ბუზთა ბატონი">
+							<div class="absolute1"><h3><a class="section2-name" href="product.html">ბუზთა ბატონი</a></h3></div>
+							<div class="absolute2"><h4 class="section2-author">უილიამ გოლდინგი</h4></div>
+							<div class="absolute3"><h4 class="section2-h4">5.00 ₾</h4></div>
+							<div class="absolute4"><a href="#"><img src="img/plus.svg" alt="კალათაში დამატება"></a></div>
+						</div>
+						<div class="relative">
+							<img src="img/7.png" alt="ფრანკენშტაინი">
+							<div class="absolute1"><h3><a class="section2-name" href="product.html">ფრანკენშტაინი</a></h3></div>
+							<div class="absolute2"><h4 class="section2-author">მერი შელი</h4></div>
+							<div class="absolute3"><h4 class="section2-h4">5.00 ₾</h4></div>
+							<div class="absolute4"><a href="#"><img src="img/plus.svg" alt="კალათაში დამატება"></a></div>
+						</div>
 					<div class="relative">
-						<img src="img/6.png" alt="ბუზთა ბატონი">
-						<div class="absolute1"><h3 class="section2-name">ბუზთა ბატონი</h3></div>
-						<div class="absolute2"><h4 class="section2-author">უილიამ გოლდინგი</h4></div>
-						<div class="absolute3"><h4 class="section2-h4">5.00 ₾</h4></div>
-						<div class="absolute4"><img style="opacity: 85%" src="img/plus.svg" alt="კალათაში დამატება"></div>
-					</div>
-					<div class="relative">
-						<img src="img/7.png" alt="ფრანკენშტაინი">
-						<div class="absolute1"><h3 class="section2-name">ფრანკენშტაინი</h3></div>
-						<div class="absolute2"><h4 class="section2-author">მერი შელი</h4></div>
-						<div class="absolute3"><h4 class="section2-h4">5.00 ₾</h4></div>
-						<div class="absolute4"><img style="opacity: 85%" src="img/plus.svg" alt="კალათაში დამატება"></div>
-					</div>
-					<div class="relative">
-						<img src="img/7.png" alt="ფრანკენშტაინი">
-						<div class="absolute1"><h3 class="section2-name">ფრანკენშტაინი</h3></div>
-						<div class="absolute2"><h4 class="section2-author">მერი შელი</h4></div>
-						<div class="absolute3"><h4 class="section2-h4">5.00 ₾</h4></div>
-						<div class="absolute4"><img style="opacity: 85%" src="img/plus.svg" alt="კალათაში დამატება"></div>
-					</div>
+							<img src="img/7.png" alt="ფრანკენშტაინი">
+							<div class="absolute1"><h3><a class="section2-name" href="product.html">ფრანკენშტაინი</a></h3></div>
+							<div class="absolute2"><h4 class="section2-author">მერი შელი</h4></div>
+							<div class="absolute3"><h4 class="section2-h4">5.00 ₾</h4></div>
+							<div class="absolute4"><a href="#"><img src="img/plus.svg" alt="კალათაში დამატება"></a></div>
+						</div>
 				</div>
 			</div>
 
 			<div class="pages">
-				<img style="transform: scaleX(-1); opacity: 60%;" src="img/page.svg" alt="წინა გვერდზე გადასვლა">
+				<img src="img/page.svg" alt="წინა გვერდზე გადასვლა">
 				<p style="opacity: 90%">1 ... 21</p>
-				<img style="opacity: 90%" src="img/page.svg" alt="შემდეგ გვერდზე გადასვლა">
+				<img src="img/page.svg" alt="შემდეგ გვერდზე გადასვლა">
 			</div>
 
 			<footer class="footer-wrapper-books">
@@ -198,8 +201,8 @@
 								<p>+(995)236486</p>
 							</div>
 							<div class="f-div4">
-								<img class="p4" src="img/fb.svg" alt="facebook">
-								<img src="img/ig.svg" alt="instagram">
+								<a href="https://www.facebook.com/"><img class="p4" src="img/fb.svg" alt="facebook"></a>
+								<a href="https://www.instagram.com/"><img src="img/ig.svg" alt="instagram"></a>
 							</div>
 						</div>
 

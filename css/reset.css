@@ -47,3 +47,8 @@ table {
 a {
 	text-decoration: none;
 }
+input:focus,
+textarea:focus,
+button:focus {
+	outline: none;
+}
