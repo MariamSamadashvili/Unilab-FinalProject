@@ -121,7 +121,7 @@ body {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%, -60%);
+	transform: translate(-50%, -50%);
 }
 /*section 2-3 css*/
 .section2-h1, .section3-h1 {
@@ -224,6 +224,7 @@ body {
 	background-color: #242220;
 }
 .footer-1 {
+	max-width: 2500px;
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
@@ -262,7 +263,8 @@ body {
 	font-family: 'Raleway', sans-serif;
 }
 .f-div4 {
-	margin-right: 176px;
+	padding-right: 176px;
+	display: flex;
 }
 .p1, .p3 {
 	margin-top: 22px;
@@ -292,12 +294,9 @@ body {
 .categories-container {
 	display: flex;
 	flex-direction: column;
-	padding-top: 20px;
-	padding-bottom: 30px;
+	padding: 20px 25px 30px 28px;
 	max-width: 2500px;
 	width: 100%;
-	margin-left: 28px;
-	margin-right: 25px;
 }
 .book-categories {
 	margin: 0 auto;
@@ -312,23 +311,24 @@ body {
 .book-categories img {
 	margin-right: 28px;
 }
-.books-container {
-	display: flex;
-	flex-direction: column;
-	margin-top: 44px;
-	max-width: 2500px;
-}
 .books-wrapper {
 	margin-bottom: 61px;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
+	margin-top: 44px;
+	max-width: 1028px;
 	width: 100%;
 }
 .books-wrapper div {
 	text-align: center;
 	width: 164px;
+	margin-right: 30px;
 }
-.books-wrapper div:last-child {
+.margin {
+	margin-bottom: 61px;
+}
+.books-wrapper div:nth-child(5n) {
 	margin-right: 0px;
 }
 .footer-wrapper-books {
@@ -336,13 +336,10 @@ body {
 	max-width: 2500px;
 	width: 100%;
 }
-.books-container div:last-child {
-	margin-bottom: 0px;
-}
 .pages {
 	display: flex;
 	margin: 0 auto;
-	margin-top: 79px;
+	margin-top: 25px;
 }
 .pages img:first-child {
 	transform: scaleX(-1);
@@ -448,12 +445,9 @@ body {
 .collections-container {
 	display: flex;
 	flex-direction: column;
-	padding-top: 20px;
-	padding-bottom: 30px;
+	padding: 20px 25px 30px 28px;
 	max-width: 2500px;
 	width: 100%;
-	margin-left: 28px;
-	margin-right: 25px;
 }
 .collections-wrapper {
 	display: flex;
@@ -594,6 +588,7 @@ body {
 }
 .f-product-div4 {
 	margin-right: 84px;
+	display: flex;
 }
 .footer-2-product h6 {
 	color: #242220;
@@ -613,12 +608,9 @@ body {
 .product-container {
 	display: flex;
 	flex-direction: column;
-	padding-top: 20px;
-	padding-bottom: 30px;
+	padding: 20px 72px 30px;
 	max-width: 2500px;
 	width: 100%;
-	padding-left: 72px;
-	padding-right: 72px;
 }
 .product-h4 {
 	margin: 0 auto;
@@ -725,6 +717,7 @@ body {
 .annotation-top h2 {
 	color: #7E3737;
 	font-size: 45px;
+	margin: 0 45px;
 	font-family: 'BPG DejaVu 2010';
 }
 .annotation-line {
@@ -765,7 +758,9 @@ body {
 .similar-top h2 {
 	color: #7E3737;
 	font-size: 45px;
+	margin: 0 45px;
 	font-family: 'BPG DejaVu 2010';
+	text-align: center;
 }
 .similar-wrapper {
 	margin-top: 45px;
@@ -791,12 +786,12 @@ body {
 }
 @font-face {
     font-family: 'BPG Arial';
-    src: url('BPGArial.eot');
-    src: url('BPGArial.eot?#iefix') format('embedded-opentype'),
-        url('BPGArial.woff2') format('woff2'),
-        url('BPGArial.woff') format('woff'),
-        url('BPGArial.ttf') format('truetype'),
-        url('BPGArial.svg#BPGArial') format('svg');
+    src: url('fonts/BPGArial.eot');
+    src: url('fonts/BPGArial.eot?#iefix') format('embedded-opentype'),
+        url('fonts/BPGArial.woff2') format('woff2'),
+        url('fonts/BPGArial.woff') format('woff'),
+        url('fonts/BPGArial.ttf') format('truetype'),
+        url('fonts/BPGArial.svg#BPGArial') format('svg');
     font-weight: normal;
     font-style: normal;
 }
