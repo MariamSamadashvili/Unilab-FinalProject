@@ -10,43 +10,51 @@
 		<link rel="stylesheet" type="text/css" href="css/responsive.css">
 	</head>
 	<body>
-		<header class="header-wrapper-product">
-			<div>
-				<div class="dots-div">
-					<div class="dots-product"></div>
-					<div class="dots-product"></div>
-					<div class="dots-product"></div>
+		<header>
+			<div class="header-wrapper-product">
+				<div>
+					<div class="dots-div">
+						<div class="dots-product"></div>
+						<div class="dots-product"></div>
+						<div class="dots-product"></div>
+					</div>
+					<div class="search-div search-product">
+					    <form action="/action_page.php">
+					        <button type="submit"><img src="img/search.svg" alt="ძებნა"></button>
+					        <input type="text" name="search">
+					        <label for="search"></label>
+					    </form>
+					</div>
+					<nav>
+						<ul class="nav-ul-product">
+							<li class="li-product">
+								<a class="nav-a-product" href="index.html"> მთავარი </a>
+							</li>
+							<li class="li-product">
+								<a class="nav-a-product" href="books.html"> წიგნები </a>
+							</li>
+							<li class="li-product">
+								<a class="nav-a-product" href="collections.html"> კოლექციები </a>
+							</li>
+							<li class="li-product">
+								<a class="nav-a-product" href="#"> ბიბლიოთეკა </a>
+							</li>
+						</ul>
+					</nav>
+				</div>	
+				<div class="icons-div-product">
+					<a href="#"><img src="img/product/user.svg" alt="იუზერი"></a>
+					<a href="#"><img src="img/product/basket.svg" alt="კალათა"></a>
+					<a href="#"><img src="img/product/globe.svg" alt="ენა"></a>
 				</div>
-				<div class="search-div search-product">
-				    <form action="/action_page.php">
-				        <button type="submit"><img src="img/search.svg" alt="ძებნა"></button>
-				        <input type="text" name="search">
-				        <label for="search"></label>
-				    </form>
-				</div>
-				<nav>
-					<ul class="nav-ul-product">
-						<li class="li-product">
-							<a class="nav-a-product" href="index.html"> მთავარი </a>
-						</li>
-						<li class="li-product">
-							<a class="nav-a-product" href="books.html"> წიგნები </a>
-						</li>
-						<li class="li-product">
-							<a class="nav-a-product" href="collections.html"> კოლექციები </a>
-						</li>
-						<li class="li-product">
-							<a class="nav-a-product" href="#"> ბიბლიოთეკა </a>
-						</li>
-					</ul>
-				</nav>
-			</div>	
-			<div class="icons-div-product">
-				<a href="#"><img src="img/product/user.svg" alt="იუზერი"></a>
-				<a href="#"><img src="img/product/basket.svg" alt="კალათა"></a>
-				<a href="#"><img src="img/product/globe.svg" alt="ენა"></a>
 			</div>
-			
+			<div class="responsive-header">
+				<div class="img-wrapper">
+					<img src="img/menu.svg" alt="მენიუ">
+					<img src="img/logo2.svg" alt="ონლაინ წიგნები">
+					<img src="img/search2.svg" alt="ძებნა">
+				</div>
+			</div>
 		</header>
 
 		<section class="product-container">
@@ -96,31 +104,30 @@
 					<h2>ასევე დაგაინტერესებთ</h2>
 					<div class="similar-lines"></div>
 				</div>
-				<div class="similar-books">
 						<div class="similar-wrapper">
 							<div class="relative">
-								<img src="img/1.png" alt="ჰარი პოტერი და ფილოსოფიური ქვა">
+								<img class="img-book" src="img/1.png" alt="ჰარი პოტერი და ფილოსოფიური ქვა">
 								<div class="absolute1"><h3><a class="section2-name" href="product.html">ჰარი პოტერი <span>და ფილოსოფიური ქვა</span></a></h3></div>
 								<div class="absolute2"><h4 class="section2-author">ჯოან როულინგი</h4></div>
 								<div class="absolute3"><h4 class="section2-h4">5.00 ₾</h4></div>
 								<div class="absolute4"><a href="#"><img src="img/plus.svg" alt="კალათაში დამატება"></a></div>
 							</div>
 							<div class="relative">
-								<img src="img/2.png" alt="დიდი გეტსბი">
+								<img class="img-book" src="img/2.png" alt="დიდი გეტსბი">
 								<div class="absolute1"><h3><a class="section2-name" href="product.html">დიდი გეტსბი</a></h3></div>
 								<div class="absolute2"><h4 class="section2-author">ფრენსის სკოტ ფიცჯერალდი</h4></div>
 								<div class="absolute3"><h4 class="section2-h4">5.00 ₾</h4></div>
 								<div class="absolute4"><a href="#"><img src="img/plus.svg" alt="კალათაში დამატება"></a></div>
 							</div>
 							<div class="relative">
-								<img src="img/3.png" alt="ანა ფრანკის დღიური">
+								<img class="img-book" src="img/3.png" alt="ანა ფრანკის დღიური">
 								<div class="absolute1"><h3><a class="section2-name" href="product.html">ანა ფრანკის დღიური</a></h3></div>
 								<div class="absolute2"><h4 class="section2-author">ანა ფრანკი</h4></div>
 								<div class="absolute3"><h4 class="section2-h4">5.00 ₾</h4></div>
 								<div class="absolute4"><a href="#"><img src="img/plus.svg" alt="კალათაში დამატება"></a></div>
 							</div>
 							<div class="relative">
-								<img src="img/4.png" alt="ჰობიტი">
+								<img class="img-book" src="img/4.png" alt="ჰობიტი">
 								<div class="absolute1"><h3><a class="section2-name" href="product.html">ჰობიტი</a></h3></div>
 								<div class="absolute2"><h4 class="section2-author">ჯ.რ.რ. ტოლკინი</h4></div>
 								<div class="absolute3"><h4 class="section2-h4">5.00 ₾</h4></div>

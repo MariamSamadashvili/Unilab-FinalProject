@@ -1,7 +1,7 @@
 @media (max-width: 1300px) {
 	.books-wrapper div:nth-child(4n) {
 		margin-right: 0px;
-}
+	}
 }
 @media (max-width: 1170px) {
 	/*index.html*/
@@ -31,6 +31,9 @@
 	}
 	.books-wrapper div:nth-child(5n) {
 		margin-right: 30px;
+	}
+	.books-wrapper div:nth-child(n-3) {
+		margin-right: 0px;
 	}
 	.collections-wrapper div {
 		flex:50%;
@@ -81,6 +84,9 @@
 	.f-product-div1 {
 		margin-right: 20px;
 	}
+	.f-div4 {
+		padding-right: 50px;
+	}
 }
 @media (max-width: 1070px) {
 	.f-div4 {
@@ -91,7 +97,88 @@
 		display: flex;
 		justify-content: space-between;
 	}
-	.f-div, .f-div3 {
+	.f-div3 {
 		padding-right: 0px;
+	}
+	.f-div {
+		padding-right: 60px;
+	}
+	.similar-wrapper div {
+		width: 160px;
+		margin-right: 10px;
+	}
+	.img-book {
+		width: 160px;
+	}
+	.similar-wrapper div h3 a {
+		font-size: 16px;
+	}
+	.similar-wrapper div h3 a span {
+		letter-spacing: -0.6px;
+	}
+	.purchase-div h1 {
+		font-size: 36px;
+	}
+	.purchase-details {
+		padding: 18px 23px;
+		margin-top: 10px;
+	}
+	.product-img {
+		height: 560px;
+	}
+	.books-wrapper div:nth-child(3n) {
+		margin-right: 0px;
+	}
+	.books-wrapper div:nth-child(4n) {
+		margin-right: 0px;
+	}
+	.f-div, .f-div3 {
+		padding-right: 50px;
+	}
+	.purchase-div h4 {
+		font-size: 16px;
+	}
+	.stars-div img {
+		width: 115px;
+	}
+	.stars-div p, .purchase-details-p1 {
+		font-size: 13px;
+	}
+	.purchase-div h2 {
+		font-size: 35px;
+	}
+	.collections-wrapper div img {
+		max-width: 300px;
+	}
+	.collections-wrapper div h2 {
+		max-width: 300px;
+	}
+	.similar-top h2, .annotation-top h2 {
+		font-size: 34px;
+	}
+	.annotation p {
+		font-size: 20px;
+	}
+	.book-categories h1 {
+		font-size: 17px;
+		margin-right: 17px;
+	}
+	.book-categories img {
+		width: 13px;
+	}
+	.section2-h1, .section3-h1  {
+		font-size: 28px;
+	}
+}
+@media (max-width: 975px) {
+	.header-wrapper {
+		display: none;
+	}
+	.responsive-header {
+		display: block;
+	}
+	body {
+		padding-left: 0px;
+		padding-top: 80.55px;
 	}
 }
