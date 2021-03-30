@@ -4,7 +4,12 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>დიდი გეტსბი</title>
-		<link rel="icon" href="img/#.png">
+		<meta property="og:url" content="hhttps://mariamsamadashvili.github.io/Unilab-FinalProject/" />
+		<meta property="og:type" content="books" />
+		<meta property="og:title" content="ონლაინ წიგნები" />
+		<meta property="og:description" content="ელ. წიგნები" />
+		<meta property="og:image" content="img/panel1.png" />
+		<link rel="icon" href="https://www.iconpacks.net/icons/2/free-opened-book-icon-3169-thumb.png">
 		<link rel="stylesheet" type="text/css" href="css/reset.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="css/responsive.css">
@@ -49,11 +54,38 @@
 				</div>
 			</div>
 			<div class="responsive-header">
-				<div class="img-wrapper">
-					<img src="img/menu.svg" alt="მენიუ">
-					<img src="img/logo2.svg" alt="ონლაინ წიგნები">
-					<img src="img/search2.svg" alt="ძებნა">
+				<div id="mySidebar" class="sidebar">
+						<div class="responsive-nav">
+							<a href="javascript:void(0)" onclick="closeNav()"><img class="closebtn" src="img/closebtn.svg" alt="მენიუს დახურვა"></a>
+							<a class="nav-a responsive-a-books" href="index.html"> მთავარი </a>
+							<a class="nav-a responsive-a-books" href="books.html"> წიგნები </a>
+							<a class="nav-a responsive-a-books" href="collections.html"> კოლექციები </a>
+							<a class="nav-a responsive-a-books" href="#"> ბიბლიოთეკა </a>
+						</div>
+						<div class="icons-div">
+							<a href="#"><img src="img/user.svg" alt="იუზერი"></a>
+							<a href="#"><img src="img/basket.svg" alt="კალათა"></a>
+							<a href="#"><img src="img/globe.svg" alt="ენა"></a>
+						</div>
 				</div>
+				<div class="img-wrapper">
+					<div id="main">
+					  	<button class="openbtn" onclick="openNav()"><img src="img/menu.svg" alt="მენიუ"></button> 
+					</div>
+					<img class="img2" src="img/logo2.svg" alt="ონლაინ წიგნები">
+					<img class="img3" src="img/search2.svg" alt="ძებნა">
+				</div>
+				<script>
+					function openNav() {
+					  document.getElementById("mySidebar").style.width = "250px";
+					  document.getElementById("main").style.marginLeft = "250px";
+					}
+
+					function closeNav() {
+					  document.getElementById("mySidebar").style.width = "0";
+					  document.getElementById("main").style.marginLeft= "0";
+					}
+				</script>
 			</div>
 		</header>
 
@@ -63,6 +95,7 @@
 
 			<div class="purchase">
 
+				<h1 class="responsive-purchase-h1">დიდი გეტსბი</h1>
 				<img class="product-img" src="img/product/book.png" alt="დიდი გეტსბი">
 
 				<div class="purchase-div">
@@ -105,30 +138,30 @@
 					<div class="similar-lines"></div>
 				</div>
 						<div class="similar-wrapper">
-							<div class="relative">
+							<div class="relative product-relative">
 								<img class="img-book" src="img/1.png" alt="ჰარი პოტერი და ფილოსოფიური ქვა">
-								<div class="absolute1"><h3><a class="section2-name" href="product.html">ჰარი პოტერი <span>და ფილოსოფიური ქვა</span></a></h3></div>
+								<div class="absolute1 product-abs1"><h3><a class="section2-name" href="product.html">ჰარი პოტერი <span>და ფილოსოფიური ქვა</span></a></h3></div>
 								<div class="absolute2"><h4 class="section2-author">ჯოან როულინგი</h4></div>
 								<div class="absolute3"><h4 class="section2-h4">5.00 ₾</h4></div>
 								<div class="absolute4"><a href="#"><img src="img/plus.svg" alt="კალათაში დამატება"></a></div>
 							</div>
-							<div class="relative">
+							<div class="relative product-relative">
 								<img class="img-book" src="img/2.png" alt="დიდი გეტსბი">
-								<div class="absolute1"><h3><a class="section2-name" href="product.html">დიდი გეტსბი</a></h3></div>
+								<div class="absolute1 product-abs1"><h3><a class="section2-name" href="product.html">დიდი გეტსბი</a></h3></div>
 								<div class="absolute2"><h4 class="section2-author">ფრენსის სკოტ ფიცჯერალდი</h4></div>
 								<div class="absolute3"><h4 class="section2-h4">5.00 ₾</h4></div>
 								<div class="absolute4"><a href="#"><img src="img/plus.svg" alt="კალათაში დამატება"></a></div>
 							</div>
-							<div class="relative">
+							<div class="relative product-relative">
 								<img class="img-book" src="img/3.png" alt="ანა ფრანკის დღიური">
-								<div class="absolute1"><h3><a class="section2-name" href="product.html">ანა ფრანკის დღიური</a></h3></div>
+								<div class="absolute1 product-abs1"><h3><a class="section2-name" href="product.html">ანა ფრანკის დღიური</a></h3></div>
 								<div class="absolute2"><h4 class="section2-author">ანა ფრანკი</h4></div>
 								<div class="absolute3"><h4 class="section2-h4">5.00 ₾</h4></div>
 								<div class="absolute4"><a href="#"><img src="img/plus.svg" alt="კალათაში დამატება"></a></div>
 							</div>
-							<div class="relative">
+							<div class="relative product-relative">
 								<img class="img-book" src="img/4.png" alt="ჰობიტი">
-								<div class="absolute1"><h3><a class="section2-name" href="product.html">ჰობიტი</a></h3></div>
+								<div class="absolute1 product-abs1"><h3><a class="section2-name" href="product.html">ჰობიტი</a></h3></div>
 								<div class="absolute2"><h4 class="section2-author">ჯ.რ.რ. ტოლკინი</h4></div>
 								<div class="absolute3"><h4 class="section2-h4">5.00 ₾</h4></div>
 								<div class="absolute4"><a href="#"><img src="img/plus.svg" alt="კალათაში დამატება"></a></div>
@@ -161,11 +194,32 @@
 							<a href="https://www.instagram.com/"><img src="img/product/ig.svg" alt="instagram"></a>
 						</div>
 					</div>
-
+					<div class="footer-1-responsive">	
+						<div class="f-div">
+							<div class="f-responsive-div1 resp-color">
+								<h3>კომპანია</h3>
+								<p>ჩვენ შესახებ</p>
+								<p>სიახლეები</p>
+								<p>გამოწერის ინსტრუქცია</p>
+								<p>წესები და პირობები</p>
+							</div>
+						</div>
+						<div class="f-responsive-div2 resp-color">
+							<div class="contact-responsive">
+								<h3>კონტაქტი</h3>
+								<p>info@online<br>wignebi.ge</p>
+								<p>+(995)236486</p>
+							</div>
+							<div>
+								<a href="https://www.facebook.com/"><img class="p4" src="img/product/fb.svg" alt="facebook"></a>
+								<a href="https://www.instagram.com/"><img src="img/product/ig.svg" alt="instagram"></a>
+							</div>
+						</div>
+					</div>
 					<div class="line-product"></div>
 						
 					<div class="footer-2-product">
-						<img style="height: 45px" src="img/product/logo.svg" alt="ლოგო">
+						<img class="footer-img" src="img/product/logo.svg" alt="ლოგო">
 						<h6>© 2021 Advertical Media LLC. All Rights Reserved.</h6>
 					</div>
 				</div>

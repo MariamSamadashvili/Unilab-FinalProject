@@ -97,12 +97,6 @@
 		display: flex;
 		justify-content: space-between;
 	}
-	.f-div3 {
-		padding-right: 0px;
-	}
-	.f-div {
-		padding-right: 60px;
-	}
 	.similar-wrapper div {
 		width: 160px;
 		margin-right: 10px;
@@ -179,6 +173,376 @@
 	}
 	body {
 		padding-left: 0px;
-		padding-top: 80.55px;
+		padding-top: 75.55px;
+	}
+	.header-wrapper-product {
+		display: none;
+	}
+}
+@media (max-width: 725px) {
+	.panel1 {
+		display: none;
+	}
+	.responsive-banner {
+		display: block;
+	}
+	.f-div1 h3, .f-div3 h3, .f-product-div1 h3, .f-product-div3 h3 {
+		font-size: 18px;
+		margin-bottom: 34px;
+	}
+	.f-div1 p, .f-div2 p, .f-div3 p, .f-product-div1 p, .f-product-div2 p, .f-product-div3 p {
+		font-size: 14px;
+	}
+	.footer-2 h6, .footer-2-product h6 { 
+		font-size: 12px;
+		text-align: right;
+	}
+	.footer-img {
+		height: 40px;
+	}
+	.p1, .p3 {
+		margin-bottom: 37px;
+	}
+	.section2-h1, .section3-h1  {
+		font-size: 26px;
+		margin-bottom: 35px;
+	}
+	.panel1-logo {
+		width: 260px;
+	}
+	.collections-wrapper div img {
+		max-width: 280px;
+	}
+	.collections-wrapper div h2 {
+		max-width: 280px;
+	}
+	/*product purchase-div*/
+	.purchase-div h1 {
+		font-size: 34px;
+	}
+	.product-img {
+		height: 530px;
+	}
+	.stars-div {
+		margin-top: 25px;
+	}
+	.purchase-div h4 {
+		margin-top: 25px;
+	}
+	.purchase-details {
+		padding: 18px 21px;
+	}
+	/*product section*/
+	.similar-top h2, .annotation-top h2 {
+		font-size: 30px;
+	}
+	.similar-wrapper div {
+		width: 140px;
+		margin-right: 10px;
+	}
+	.img-book {
+		width: 140px;
+	}
+	.similar-wrapper div h3 a {
+		font-size: 14px;
+	}
+	.similar-wrapper div h4 {
+		font-size: 13px;
+	}
+	.product-relative {
+		height: 400px;
+	}
+	.product-abs1 {
+		top: 252px;
+	}
+	.f-div, .f-div3, .f-product-div3 {
+		padding-right: 45px;
+	}
+	.f-div, .f-product-div3 {
+		margin-right: 0px;
+	}
+}
+@media (max-width: 655px) {
+	.f-div, .f-div3, .f-product-div3 {
+		padding-right: 20px;
+	}
+	.f-div4 img, .f-product-div4 img {
+		height: 35px;
+	}
+	.collections-wrapper div img {
+		max-width: 260px;
+	}
+	.collections-wrapper div h2 {
+		max-width: 260px;
+		font-size: 27px;
+	}
+	.book-categories h1 {
+		font-size: 15px;
+		margin-right: 15px;
+	}
+	.book-categories img {
+		width: 12px;
+	}
+	.purchase {
+		flex-direction: column;
+		margin-top: 0;
+	}
+	.product-img {
+		height: 100%;
+	}
+	.product-h4 {
+		display: none;
+	}
+	.responsive-purchase-h1 {
+		font-size: 45px;
+		color: #242220;
+		font-family: 'BPG DejaVu 2010';
+		display: block;
+		margin: 30px auto;
+	}
+	.purchase-div h1 {
+		display: none;
+	}
+	.purchase-div h4 {
+		font-size: 18px;
+	}
+	.stars-div img {
+		width: 130px;
+	}
+	.stars-div {
+		margin-top: 41px;
+	}
+	.stars-div p, .purchase-details-p1 {
+		font-size: 17px;
+	}
+	.purchase-div h2 {
+		font-size: 35px;
+	}
+	.purchase-div h4 {
+		font-size: 30px;
+		margin-top: 45px;
+	}
+	.plus-product {
+		width: 35px;
+		margin-top: 41px;
+	}
+	.warning p {
+		font-size: 15px;
+	}
+	.purchase-details {
+		padding: 30px 105px;
+		margin-top: 45px;
+	}
+	.stars-div p, .purchase-details-p1 {
+		font-size: 15px;
+	}
+	.similar-wrapper div {
+		margin-right: 20px;
+		width: 164px;
+	}
+	.img-book {
+		width: 164px;
+	}
+	.similar-wrapper {
+		flex-wrap: wrap;
+		max-width: 655px;
+		width: 100%;
+		justify-content: space-around;
+	}
+	.similar-lines, .annotation-line {
+		display: none;
+	}
+	.similar-top {
+		padding: 0px;
+	}
+	.annotation-top h2, .similar-top h2 {
+		margin: 0 auto;
+	}
+	.product-relative {
+		height: 0px;
+		margin-bottom: 30px;
+	}
+	.product-abs1 {
+		top: 0px;
+	}
+	.relative {
+		height: 435px;
+	}
+	.absolute1 {
+		top: 291px;
+	}
+	.similar-wrapper div h3 a {
+		font-size: 17px;
+	}
+	.similar-wrapper div h4 {
+		font-size: 14px;
+	}
+	.similar-wrapper div h3 a span {
+		letter-spacing: -1.1px;
+	}
+}
+@media (max-width: 600px) {
+	.footer-1 {
+		display: none;
+	}
+	.footer-1-responsive {
+		display: block;
+		display: flex;
+	}
+	.collections-wrapper div img {
+		max-width: 240px;
+	}
+	.collections-wrapper div h2 {
+		max-width: 240px;
+		font-size: 26px;
+	}
+	.similar-wrapper div:nth-child(2n) {
+		margin-right: 0px;
+	}
+}
+@media (max-width: 565px) {
+	.collections-wrapper div {
+		flex: 100%;
+	}
+	.collections-wrapper div img {
+		max-width: 565px;
+	}
+	.collections-wrapper div h2 {
+		max-width: 565px;
+		font-size: 40px;
+	}
+	.margin2 {
+		margin-bottom: 61px;
+	}
+	.margin2:last-child {
+		margin-bottom: 0px;
+	}
+	.disappear {
+		display: none;
+	}
+	.book-categories {
+		display: none;
+	}
+	.book-categories-responsive {
+		display: block;
+	}
+	.purchase-div h4 {
+		font-size: 24px;
+	}
+	.responsive-purchase-h1 {
+		font-size: 40px;
+	}
+}
+@media (max-width: 480px) {
+	.panel1-logo {
+		width: 230px;
+	}
+	.product-img {
+		height: 580px;
+	}
+}
+@media (max-width: 417px) {
+	.purchase-div h4 {
+		font-size: 22px;
+	}
+	.responsive-banner {
+		display: none;
+	}
+	.mobile-panel {
+		display: block;
+	}
+	.panel1-logo {
+		width: 210px;
+	}
+	.responsive-purchase-h1 {
+		font-size: 36px;
+	}
+	.f-responsive-div1 h3, .f-responsive-div2 h3 {
+		font-size: 17px;
+	}
+	.f-responsive-div1 p, .f-responsive-div2 p {
+		font-size: 14px;
+	}
+	.collections-wrapper div h2 {
+		font-size: 33px;
+	}
+	.similar-wrapper div {
+	    margin-right: 0px;
+	}
+	.books-wrapper div {
+		max-width: 150px;
+	}
+	.books-wrapper div img {
+		max-width: 150px;
+	}
+	.books-wrapper div h3 a {
+		font-size: 15px;
+	}
+	.books-wrapper div h4 {
+		font-size: 13px;
+	}
+	.purchase-details {
+		padding: 30px 20px;
+		margin-top: 45px;
+	}
+	.product-img {
+		height: 470px;
+	}
+}
+@media (max-width: 380px) {
+	.books-wrapper div {
+		max-width: 164px;
+		flex: 100%;
+	}
+	.panel1-logo {
+		width: 170px;
+	}
+	.margin2:last-child {
+		margin-bottom: 61px;
+	}
+	.books-wrapper {
+		justify-content: space-around;
+	}
+	.books-wrapper div img {
+		max-width: 164px;
+	}
+	.books-wrapper div h3 a {
+		font-size: 17px;
+	}
+	.books-wrapper div h4 {
+		font-size: 14px;
+	}
+	.f-responsive-div1 h3, .f-responsive-div2 h3 {
+		font-size: 15px;
+	}
+	.f-responsive-div1 p, .f-responsive-div2 p {
+		font-size: 13px;
+	}
+	.f-responsive-div2 a img {
+		height: 30px;
+	}
+	.footer-img {
+		width: 90px;
+	}
+	.product-img {
+		height: 435px;
+	}
+	.collections-wrapper div h2 {
+		font-size: 28px;
+	}
+	.purchase-div h4 {
+		font-size: 18px;
+	}
+	.responsive-purchase-h1 {
+		font-size: 32px;
+	}
+	.footer {
+		padding: 33px 25px;
+	}
+	.similar-top h2, .annotation-top h2 {
+		font-size: 25px;
+	}
+	.annotation p {
+		font-size: 16px;
 	}
 }
