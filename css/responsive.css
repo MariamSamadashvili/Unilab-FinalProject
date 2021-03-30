@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @media (max-width: 1300px) {
 	.books-wrapper div:nth-child(4n) {
 		margin-right: 0px;
@@ -36,7 +43,9 @@
 		margin-right: 0px;
 	}
 	.collections-wrapper div {
-		flex:50%;
+		-webkit-box-flex:50%;
+		    -ms-flex:50%;
+		        flex:50%;
 	}
 	/*product.html*/
 	.header-wrapper-product {
@@ -94,8 +103,12 @@
 	}
 	.footer-1 {
 		max-width: 1070px;
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
-		justify-content: space-between;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
 	}
 	.similar-wrapper div {
 		width: 160px;
@@ -284,7 +297,10 @@
 		width: 12px;
 	}
 	.purchase {
-		flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
 		margin-top: 0;
 	}
 	.product-img {
@@ -344,10 +360,12 @@
 		width: 164px;
 	}
 	.similar-wrapper {
-		flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
 		max-width: 655px;
 		width: 100%;
-		justify-content: space-around;
+		-ms-flex-pack: distribute;
+		    justify-content: space-around;
 	}
 	.similar-lines, .annotation-line {
 		display: none;
@@ -387,6 +405,8 @@
 	}
 	.footer-1-responsive {
 		display: block;
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
 	}
 	.collections-wrapper div img {
@@ -402,7 +422,9 @@
 }
 @media (max-width: 565px) {
 	.collections-wrapper div {
-		flex: 100%;
+		-webkit-box-flex: 100%;
+		    -ms-flex: 100%;
+		        flex: 100%;
 	}
 	.collections-wrapper div img {
 		max-width: 565px;
@@ -492,7 +514,9 @@
 @media (max-width: 380px) {
 	.books-wrapper div {
 		max-width: 164px;
-		flex: 100%;
+		-webkit-box-flex: 100%;
+		    -ms-flex: 100%;
+		        flex: 100%;
 	}
 	.panel1-logo {
 		width: 170px;
@@ -501,7 +525,8 @@
 		margin-bottom: 61px;
 	}
 	.books-wrapper {
-		justify-content: space-around;
+		-ms-flex-pack: distribute;
+		    justify-content: space-around;
 	}
 	.books-wrapper div img {
 		max-width: 164px;
