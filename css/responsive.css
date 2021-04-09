@@ -524,17 +524,29 @@
 	.books-wrapper div h4 {
 		font-size: 12px;
 	}
-	.absolute1 {
+	.add1 {
 		top: 240px;
 	}
-	.absolute2 {
+	.add2 {
 		bottom: 102px;
 	}
-	.absolute3 {
+	.add3 {
 		bottom: 60px;
 	}
 	.panel1-logo {
 		width: 170px;
+	}
+	.img2 {
+		width: 120px;
+	}
+	.img3 {
+		width: 45px;
+	}
+	.openbtn {
+		width: 15px;
+	}
+	.closebtn {
+		width: 27px;
 	}
 	.margin2:last-child {
 		margin-bottom: 61px;
